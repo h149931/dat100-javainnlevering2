@@ -5,8 +5,8 @@ public class Matriser {
 	// a)
 	public static void skrivUt(int[][] matrise) {
 		
-		// TODO
-		throw new UnsupportedOperationException("skrivUt ikke implementert");
+		
+		
 	}
 
 	// b)

@@ -5,16 +5,15 @@ public class Tabeller {
 	// a)
 	public static void skrivUt(int[] tabell) {
 
-		// TODO
-		throw new UnsupportedOperationException("skrivUt ikke implementert");
+		int[]heltall = {1,2,3,4,5,6,7,8,9};
 
 	}
 
 	// b)
 	public static String tilStreng(int[] tabell) {
 
-		// TODO
 		throw new UnsupportedOperationException("tilStreng ikke implementert");
+
 		
 	}
 
