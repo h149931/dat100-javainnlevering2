@@ -6,7 +6,7 @@ public class Tabeller {
 	public static void skrivUt(int[] tabell) {
 
 		int[]heltall = {1,2,3,4,5,6,7,8,9};
-
+		int sum;
 	}
 
 	// b)
