@@ -6,7 +6,7 @@ public class Tabeller {
 	public static void skrivUt(int[] tabell) {
 
 		int[]heltall = {1,2,3,4,5,6,7,8,9};
-		int sum = 23;
+		throw new UnsupportedOperationException("tilStreng ikke implementert");
 	}
 
 	// b)
@@ -19,9 +19,14 @@ public class Tabeller {
 
 	// c)
 	public static int summer(int[] tabell) {
-
-		// TODO
-		throw new UnsupportedOperationException("summer ikke implementert");
+		int sum=0;
+		for (int i= 0; i<tabell.length; i++) {
+			sum = sum + tabell[i];
+			
+		}
+		return sum;
+		
+		//throw new UnsupportedOperationException("summer ikke implementert");
 	}
 
 	// d)
