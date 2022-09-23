@@ -4,10 +4,14 @@ public class Tabeller {
 
 	// a)
 	public static void skrivUt(int[] tabell) {
-
-		int[]heltall = {1,2,3,4,5,6,7,8,9};
-		throw new UnsupportedOperationException("tilStreng ikke implementert");
-	}
+		for (int i= 0; i<tabell.length; i++) {
+			int temp = tabell[i];
+			System.out.println(temp);
+		}
+		
+		}
+		
+	
 
 	// b)
 	public static String tilStreng(int[] tabell) {
