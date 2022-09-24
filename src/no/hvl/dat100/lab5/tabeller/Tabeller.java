@@ -16,7 +16,16 @@ public class Tabeller {
 	// b)
 	public static String tilStreng(int[] tabell) {
 
-		throw new UnsupportedOperationException("tilStreng ikke implementert");
+		String tabInh = "";
+		for (int i=0;i<tabell.length;i++) {
+			tabInh = tabInh+tabell[i];
+			if (i<tabell.length-1)
+				tabInh = tabInh+",";
+		}
+			
+		String melding="["+tabInh+"]";
+		return melding;
+		//throw new UnsupportedOperationException("tilStreng ikke implementert");
 
 		
 	}
@@ -36,15 +45,21 @@ public class Tabeller {
 	// d)
 	public static boolean finnesTall(int[] tabell, int tall) {
 
-		// TODO
-		throw new UnsupportedOperationException("finnesTall ikke implementert");
+		for (int e:tabell)
+			if (e==tall)
+				return true;
+		return false;
+		//throw new UnsupportedOperationException("finnesTall ikke implementert");
 	}
 
 	// e)
 	public static int posisjonTall(int[] tabell, int tall) {
 
-		// TODO
-		throw new UnsupportedOperationException("posisjonTall ikke implementert");
+		for (int i=0;i<tabell.length;i++)
+			if (tabell[i]==tall)
+				return i;
+		return -1;
+		//throw new UnsupportedOperationException("posisjonTall ikke implementert");
 
 	}
 
